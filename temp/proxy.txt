@@ -1157,6 +1157,7 @@ DOMAIN-SUFFIX,contactmagazine.net,PROXY
 DOMAIN-SUFFIX,contests.twilio.com,PROXY
 DOMAIN-SUFFIX,convio.net,PROXY
 DOMAIN-SUFFIX,coobay.com,PROXY
+DOMAIN-SUFFIX,cool18.com,PROXY
 DOMAIN-SUFFIX,coolaler.com,PROXY
 DOMAIN-SUFFIX,coolder.com,PROXY
 DOMAIN-SUFFIX,coolloud.org.tw,PROXY
@@ -1355,6 +1356,7 @@ DOMAIN-SUFFIX,discuss.com.hk,PROXY
 DOMAIN-SUFFIX,discuss4u.com,PROXY
 DOMAIN-SUFFIX,dish.com,PROXY
 DOMAIN-SUFFIX,disk.yandex.com,PROXY
+DOMAIN-SUFFIX,disk.yandex.ru,PROXY
 DOMAIN-SUFFIX,disp.cc,PROXY
 DOMAIN-SUFFIX,disqus.com,PROXY
 DOMAIN-SUFFIX,dit-inc.us,PROXY
@@ -2366,7 +2368,6 @@ DOMAIN-SUFFIX,grangorz.org,PROXY
 DOMAIN-SUFFIX,graphis.ne.jp,PROXY
 DOMAIN-SUFFIX,graphql.org,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
-DOMAIN-SUFFIX,greasespot.net,PROXY
 DOMAIN-SUFFIX,great-firewall.com,PROXY
 DOMAIN-SUFFIX,great-roc.org,PROXY
 DOMAIN-SUFFIX,greatfire.org,PROXY
@@ -3811,6 +3812,7 @@ DOMAIN-SUFFIX,oanda.com,PROXY
 DOMAIN-SUFFIX,oann.com,PROXY
 DOMAIN-SUFFIX,observechina.net,PROXY
 DOMAIN-SUFFIX,obutu.com,PROXY
+DOMAIN-SUFFIX,obyte.org,PROXY
 DOMAIN-SUFFIX,ocaspro.com,PROXY
 DOMAIN-SUFFIX,occupytiananmen.com,PROXY
 DOMAIN-SUFFIX,oclp.hk,PROXY
@@ -4169,6 +4171,7 @@ DOMAIN-SUFFIX,psiphon.ca,PROXY
 DOMAIN-SUFFIX,psiphon.civisec.org,PROXY
 DOMAIN-SUFFIX,psiphon3.com,PROXY
 DOMAIN-SUFFIX,psiphontoday.com,PROXY
+DOMAIN-SUFFIX,pstatic.net,PROXY
 DOMAIN-SUFFIX,pt.im,PROXY
 DOMAIN-SUFFIX,pts.org.tw,PROXY
 DOMAIN-SUFFIX,ptt.cc,PROXY
@@ -4384,6 +4387,7 @@ DOMAIN-SUFFIX,ruyiseek.com,PROXY
 DOMAIN-SUFFIX,rxhj.net,PROXY
 DOMAIN-SUFFIX,s-cute.com,PROXY
 DOMAIN-SUFFIX,s-dragon.org,PROXY
+DOMAIN-SUFFIX,s.yimg.com,PROXY
 DOMAIN-SUFFIX,s1.nudezz.com,PROXY
 DOMAIN-SUFFIX,s1heng.com,PROXY
 DOMAIN-SUFFIX,s1s1s1.com,PROXY
@@ -4991,6 +4995,7 @@ DOMAIN-SUFFIX,thlib.org,PROXY
 DOMAIN-SUFFIX,thomasbernhard.org,PROXY
 DOMAIN-SUFFIX,thongdreams.com,PROXY
 DOMAIN-SUFFIX,threadreaderapp.com,PROXY
+DOMAIN-SUFFIX,threads.net,PROXY
 DOMAIN-SUFFIX,threatchaos.com,PROXY
 DOMAIN-SUFFIX,throughnightsfire.com,PROXY
 DOMAIN-SUFFIX,thumbzilla.com,PROXY
@@ -5773,13 +5778,13 @@ DOMAIN-SUFFIX,wizcrafts.net,PROXY
 DOMAIN-SUFFIX,wjbk.org,PROXY
 DOMAIN-SUFFIX,wlcnew.jigsy.com,PROXY
 DOMAIN-SUFFIX,wlx.sowiki.net,PROXY
+DOMAIN-SUFFIX,wmflabs.org,PROXY
 DOMAIN-SUFFIX,wn.com,PROXY
 DOMAIN-SUFFIX,wnacg.com,PROXY
 DOMAIN-SUFFIX,wnacg.org,PROXY
 DOMAIN-SUFFIX,wo.tc,PROXY
 DOMAIN-SUFFIX,wo3ttt.wordpress.com,PROXY
 DOMAIN-SUFFIX,woeser.com,PROXY
-DOMAIN-SUFFIX,woesermiddle-way.net,PROXY
 DOMAIN-SUFFIX,wokar.org,PROXY
 DOMAIN-SUFFIX,wolfax.com,PROXY
 DOMAIN-SUFFIX,wombo.ai,PROXY
@@ -5833,7 +5838,6 @@ DOMAIN-SUFFIX,www.antd.org,PROXY
 DOMAIN-SUFFIX,www.aolnews.com,PROXY
 DOMAIN-SUFFIX,www.businessinsider.com.au,PROXY
 DOMAIN-SUFFIX,www.cmoinc.org,PROXY
-DOMAIN-SUFFIX,www.cool18.com,PROXY
 DOMAIN-SUFFIX,www.dmm.com,PROXY
 DOMAIN-SUFFIX,www.dwheeler.com,PROXY
 DOMAIN-SUFFIX,www.eastturkistan.net,PROXY
