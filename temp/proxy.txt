@@ -826,6 +826,7 @@ DOMAIN-SUFFIX,cahr.org.tw,PROXY
 DOMAIN-SUFFIX,caijinglengyan.com,PROXY
 DOMAIN-SUFFIX,calameo.com,PROXY
 DOMAIN-SUFFIX,calebelston.com,PROXY
+DOMAIN-SUFFIX,calendarz.com,PROXY
 DOMAIN-SUFFIX,calgarychinese.ca,PROXY
 DOMAIN-SUFFIX,calgarychinese.com,PROXY
 DOMAIN-SUFFIX,calgarychinese.net,PROXY
@@ -892,6 +893,7 @@ DOMAIN-SUFFIX,cdef.org,PROXY
 DOMAIN-SUFFIX,cdig.info,PROXY
 DOMAIN-SUFFIX,cdjp.org,PROXY
 DOMAIN-SUFFIX,cdn-images.mailchimp.com,PROXY
+DOMAIN-SUFFIX,cdn-telegram.org,PROXY
 DOMAIN-SUFFIX,cdn.assets.lfpcontent.com,PROXY
 DOMAIN-SUFFIX,cdn.helixstudios.net,PROXY
 DOMAIN-SUFFIX,cdn.printfriendly.com,PROXY
@@ -1144,6 +1146,7 @@ DOMAIN-SUFFIX,com.google,PROXY
 DOMAIN-SUFFIX,comefromchina.com,PROXY
 DOMAIN-SUFFIX,comic-mega.me,PROXY
 DOMAIN-SUFFIX,commandarms.com,PROXY
+DOMAIN-SUFFIX,comments.app,PROXY
 DOMAIN-SUFFIX,commentshk.com,PROXY
 DOMAIN-SUFFIX,communistcrimes.org,PROXY
 DOMAIN-SUFFIX,community.windy.com,PROXY
@@ -2003,6 +2006,7 @@ DOMAIN-SUFFIX,geekerhome.com,PROXY
 DOMAIN-SUFFIX,geekheart.info,PROXY
 DOMAIN-SUFFIX,gekikame.com,PROXY
 DOMAIN-SUFFIX,gelbooru.com,PROXY
+DOMAIN-SUFFIX,generated.photos,PROXY
 DOMAIN-SUFFIX,genius.com,PROXY
 DOMAIN-SUFFIX,geocities.co.jp,PROXY
 DOMAIN-SUFFIX,geocities.com,PROXY
@@ -2365,6 +2369,7 @@ DOMAIN-SUFFIX,gr8name.biz,PROXY
 DOMAIN-SUFFIX,grammaly.com,PROXY
 DOMAIN-SUFFIX,grandtrial.org,PROXY
 DOMAIN-SUFFIX,grangorz.org,PROXY
+DOMAIN-SUFFIX,graph.org,PROXY
 DOMAIN-SUFFIX,graphis.ne.jp,PROXY
 DOMAIN-SUFFIX,graphql.org,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
@@ -2673,6 +2678,8 @@ DOMAIN-SUFFIX,hub.docker.com,PROXY
 DOMAIN-SUFFIX,hudatoriq.web.id,PROXY
 DOMAIN-SUFFIX,hudson.org,PROXY
 DOMAIN-SUFFIX,huffingtonpost.com,PROXY
+DOMAIN-SUFFIX,huffpost.com,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
 DOMAIN-SUFFIX,hugoroy.eu,PROXY
 DOMAIN-SUFFIX,huhaitai.com,PROXY
 DOMAIN-SUFFIX,huhamhire.com,PROXY
@@ -4227,6 +4234,7 @@ DOMAIN-SUFFIX,quantumbooter.net,PROXY
 DOMAIN-SUFFIX,questvisual.com,PROXY
 DOMAIN-SUFFIX,quitccp.net,PROXY
 DOMAIN-SUFFIX,quitccp.org,PROXY
+DOMAIN-SUFFIX,quiz.directory,PROXY
 DOMAIN-SUFFIX,quora.com,PROXY
 DOMAIN-SUFFIX,quoracdn.net,PROXY
 DOMAIN-SUFFIX,quran.com,PROXY
@@ -4924,9 +4932,11 @@ DOMAIN-SUFFIX,teensinasia.com,PROXY
 DOMAIN-SUFFIX,tehrantimes.com,PROXY
 DOMAIN-SUFFIX,telecomspace.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
+DOMAIN-SUFFIX,telegram-cdn.org,PROXY
 DOMAIN-SUFFIX,telegram.dog,PROXY
 DOMAIN-SUFFIX,telegram.me,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telegram.space,PROXY
 DOMAIN-SUFFIX,telegramdownload.com,PROXY
 DOMAIN-SUFFIX,telegraph.co.uk,PROXY
 DOMAIN-SUFFIX,telesco.pe,PROXY
@@ -5659,6 +5669,7 @@ DOMAIN-SUFFIX,wattpad.com,PROXY
 DOMAIN-SUFFIX,wav.tv,PROXY
 DOMAIN-SUFFIX,waveprotocol.org,PROXY
 DOMAIN-SUFFIX,waymo.com,PROXY
+DOMAIN-SUFFIX,wd.bible,PROXY
 DOMAIN-SUFFIX,wda.gov.tw,PROXY
 DOMAIN-SUFFIX,wdf5.com,PROXY
 DOMAIN-SUFFIX,wealth.com.tw,PROXY
