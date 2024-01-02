@@ -122,6 +122,7 @@ DOMAIN,docs.microsoft.com,DIRECT
 DOMAIN,doubleclick-cn.net,DIRECT
 DOMAIN,doubleclick.net,DIRECT
 DOMAIN,download.developer.apple.com,DIRECT
+DOMAIN,download.jetbrains.com,DIRECT
 DOMAIN,download.microsoft.com,DIRECT
 DOMAIN,download.mlcc.google.com,DIRECT
 DOMAIN,download.qatp1.net,DIRECT
