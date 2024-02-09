@@ -36763,6 +36763,7 @@ DOMAIN-SUFFIX,localdomain,DIRECT
 DOMAIN-SUFFIX,localhost,DIRECT
 DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT
 DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
+DOMAIN-SUFFIX,location.services.mozilla.com,DIRECT
 DOMAIN-SUFFIX,locatran.com,DIRECT
 DOMAIN-SUFFIX,locez.com,DIRECT
 DOMAIN-SUFFIX,lockfans.com,DIRECT
