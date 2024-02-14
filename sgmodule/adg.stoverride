@@ -1,0 +1,4 @@
+name: 使用自建Adguardhome
+dns:
+  nameserver: #!replace
+    - https://adg.xiangsanliu.2oil.top/dns-query/stash
