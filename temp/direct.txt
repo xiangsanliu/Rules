@@ -101,6 +101,7 @@ DOMAIN,crashlyticsreports-pa.googleapis.com,DIRECT
 DOMAIN,crl-lb.apple.com.akadns.net,DIRECT
 DOMAIN,crl.apple.com,DIRECT
 DOMAIN,crl.pki.goog,DIRECT
+DOMAIN,crls.pki.goog,DIRECT
 DOMAIN,csi.gstatic.com,DIRECT
 DOMAIN,cstat.apple.com,DIRECT
 DOMAIN,cstat.cdn-apple.com,DIRECT
