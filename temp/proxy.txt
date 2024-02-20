@@ -2688,6 +2688,7 @@ DOMAIN-SUFFIX,huiyi.in,PROXY
 DOMAIN-SUFFIX,hulkshare.com,PROXY
 DOMAIN-SUFFIX,hulu.com,PROXY
 DOMAIN-SUFFIX,huluim.com,PROXY
+DOMAIN-SUFFIX,humanparty.me,PROXY
 DOMAIN-SUFFIX,humanrightspressawards.org,PROXY
 DOMAIN-SUFFIX,hung-ya.com,PROXY
 DOMAIN-SUFFIX,hungerstrikeforaids.org,PROXY
@@ -4942,6 +4943,7 @@ DOMAIN-SUFFIX,telegraph.co.uk,PROXY
 DOMAIN-SUFFIX,telesco.pe,PROXY
 DOMAIN-SUFFIX,tellme.pw,PROXY
 DOMAIN-SUFFIX,tenacy.com,PROXY
+DOMAIN-SUFFIX,tenor.com,PROXY
 DOMAIN-SUFFIX,tensorflow.org,PROXY
 DOMAIN-SUFFIX,tenzinpalmo.com,PROXY
 DOMAIN-SUFFIX,terabox.com,PROXY
