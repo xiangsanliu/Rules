@@ -338,6 +338,7 @@ DOMAIN-SUFFIX,appdownloader.net,PROXY
 DOMAIN-SUFFIX,appledaily.com,PROXY
 DOMAIN-SUFFIX,appledaily.com.hk,PROXY
 DOMAIN-SUFFIX,appledaily.com.tw,PROXY
+DOMAIN-SUFFIX,apps.evozi.com,PROXY
 DOMAIN-SUFFIX,appshopper.com,PROXY
 DOMAIN-SUFFIX,appsocks.net,PROXY
 DOMAIN-SUFFIX,appspot.com,PROXY
@@ -347,6 +348,7 @@ DOMAIN-SUFFIX,ar.hao123.com,PROXY
 DOMAIN-SUFFIX,archive.fo,PROXY
 DOMAIN-SUFFIX,archive.is,PROXY
 DOMAIN-SUFFIX,archive.li,PROXY
+DOMAIN-SUFFIX,archive.md,PROXY
 DOMAIN-SUFFIX,archive.org,PROXY
 DOMAIN-SUFFIX,archive.ph,PROXY
 DOMAIN-SUFFIX,archive.today,PROXY
@@ -817,6 +819,7 @@ DOMAIN-SUFFIX,c-span.org,PROXY
 DOMAIN-SUFFIX,c-spanvideo.org,PROXY
 DOMAIN-SUFFIX,c100tibet.org,PROXY
 DOMAIN-SUFFIX,c2cx.com,PROXY
+DOMAIN-SUFFIX,cableav.tv,PROXY
 DOMAIN-SUFFIX,cablegatesearch.net,PROXY
 DOMAIN-SUFFIX,cachinese.com,PROXY
 DOMAIN-SUFFIX,cacnw.com,PROXY
@@ -1045,6 +1048,7 @@ DOMAIN-SUFFIX,chubold.com,PROXY
 DOMAIN-SUFFIX,chubun.com,PROXY
 DOMAIN-SUFFIX,churchinhongkong.org,PROXY
 DOMAIN-SUFFIX,chushigangdrug.ch,PROXY
+DOMAIN-SUFFIX,ciciai.com,PROXY
 DOMAIN-SUFFIX,cienen.com,PROXY
 DOMAIN-SUFFIX,cineastentreff.de,PROXY
 DOMAIN-SUFFIX,cipfg.org,PROXY
@@ -1174,6 +1178,7 @@ DOMAIN-SUFFIX,costco.com,PROXY
 DOMAIN-SUFFIX,cotweet.com,PROXY
 DOMAIN-SUFFIX,counter.social,PROXY
 DOMAIN-SUFFIX,coursehero.com,PROXY
+DOMAIN-SUFFIX,coze.com,PROXY
 DOMAIN-SUFFIX,cpj.org,PROXY
 DOMAIN-SUFFIX,cq99.us,PROXY
 DOMAIN-SUFFIX,crackle.com,PROXY
@@ -3655,6 +3660,7 @@ DOMAIN-SUFFIX,newlandmagazine.com.au,PROXY
 DOMAIN-SUFFIX,newmitbbs.com,PROXY
 DOMAIN-SUFFIX,newnews.ca,PROXY
 DOMAIN-SUFFIX,news.cnyes.com,PROXY
+DOMAIN-SUFFIX,news.ebc.net.tw,PROXY
 DOMAIN-SUFFIX,news.hk.msn.com,PROXY
 DOMAIN-SUFFIX,news.msn.com.tw,PROXY
 DOMAIN-SUFFIX,news.nationalgeographic.com,PROXY
