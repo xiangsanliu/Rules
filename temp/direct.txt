@@ -390,7 +390,6 @@ DOMAIN,tac.googleapis.com,DIRECT
 DOMAIN,tesla-cdn.thron.cn,DIRECT
 DOMAIN,test.bugs-qa.chromium.org,DIRECT
 DOMAIN,test.gbugs-qa.chromium.org,DIRECT
-DOMAIN,testflight.apple.com,DIRECT
 DOMAIN,tools.google.com,DIRECT
 DOMAIN,tools.l.google.com,DIRECT
 DOMAIN,tplogin.cn,DIRECT
