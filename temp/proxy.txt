@@ -939,6 +939,7 @@ DOMAIN-SUFFIX,changsa.net,PROXY
 DOMAIN-SUFFIX,channelnewsasia.com,PROXY
 DOMAIN-SUFFIX,chaoex.com,PROXY
 DOMAIN-SUFFIX,chapm25.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,chatnook.com,PROXY
 DOMAIN-SUFFIX,chaturbate.com,PROXY
 DOMAIN-SUFFIX,checkgfw.com,PROXY
