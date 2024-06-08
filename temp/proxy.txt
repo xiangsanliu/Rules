@@ -3177,6 +3177,7 @@ DOMAIN-SUFFIX,liangzhichuanmei.com,PROXY
 DOMAIN-SUFFIX,lianyue.net,PROXY
 DOMAIN-SUFFIX,liaowangxizang.net,PROXY
 DOMAIN-SUFFIX,liberal.org.hk,PROXY
+DOMAIN-SUFFIX,libertysculpturepark.com,PROXY
 DOMAIN-SUFFIX,libertytimes.com.tw,PROXY
 DOMAIN-SUFFIX,library.usc.cuhk.edu.hk,PROXY
 DOMAIN-SUFFIX,libredd.it,PROXY
@@ -5846,6 +5847,7 @@ DOMAIN-SUFFIX,wqyd.org,PROXY
 DOMAIN-SUFFIX,wrchina.org,PROXY
 DOMAIN-SUFFIX,wretch.cc,PROXY
 DOMAIN-SUFFIX,writer.zoho.com,PROXY
+DOMAIN-SUFFIX,writesonic.com,PROXY
 DOMAIN-SUFFIX,wsj.com,PROXY
 DOMAIN-SUFFIX,wsj.net,PROXY
 DOMAIN-SUFFIX,wsjhk.com,PROXY
