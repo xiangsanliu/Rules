@@ -7,15 +7,14 @@ def get_ad(url):
         raise Exception('Connect error')
     return res.text.split('\n')
 
-adlite_url = 'https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list'
+reject_url = 'https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list'
 
 if __name__ == '__main__':
-    reject = get_ad(adlite_url)
-    ad_file = open('./clash/adlite.yaml', mode='w', encoding='utf-8')
-    ad_file.write("# Convert from ACL4SSR/ACL4SSR\n")
-    ad_file.write("payload:\n")
+    reject = get_ad(reject_url)
+    ad_file = open('clash/adlite.txt', mode='w', encoding='utf-8')
     for line in reject:
-        if not line.startswith('#') and len(line) > 0:
-            ad_file.write('  - %s\n' % line)
+        if not line.startswith('#') and not line.startswith('DOMAIN-KEYWORD') and len(line) > 0:
+            line = line.replace('DOMAIN-SUFFIX,', '')
+            ad_file.write('.%s\n' % line)
     ad_file.close()
-    print('The adlite rule has been built successfully! Rule size: {}.'.format(len(reject)))
+    print('The ad rule has been built successfully! Rule size: {}.'.format(len(reject)))

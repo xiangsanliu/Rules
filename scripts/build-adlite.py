@@ -1,4 +1,5 @@
 import requests
+import os
 
 
 def get_ad(url):
@@ -11,10 +12,9 @@ reject_url = 'https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.lis
 
 if __name__ == '__main__':
     reject = get_ad(reject_url)
-    ad_file = open('clash/adlite.txt', mode='w', encoding='utf-8')
+    ad_file = open(os.getcwd() + '/temp/adlite.txt', mode='w', encoding='utf-8')
     for line in reject:
-        if not line.startswith('#') and not line.startswith('DOMAIN-KEYWORD') and len(line) > 0:
-            line = line.replace('DOMAIN-SUFFIX,', '')
-            ad_file.write('.%s\n' % line)
+        if not line.startswith('#') and len(line) > 0:
+            ad_file.write('%s,REJECT\n' % line)
     ad_file.close()
     print('The ad rule has been built successfully! Rule size: {}.'.format(len(reject)))
