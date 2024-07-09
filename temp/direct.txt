@@ -437,6 +437,8 @@ DOMAIN,techstop.corp.google.com,DIRECT
 DOMAIN,tesla-cdn.thron.cn,DIRECT
 DOMAIN,test.bugs-qa.chromium.org,DIRECT
 DOMAIN,test.gbugs-qa.chromium.org,DIRECT
+DOMAIN,time.izatcloud.net,DIRECT
+DOMAIN,time.xtracloud.net,DIRECT
 DOMAIN,tj-pod1-smp-device.apple.com,DIRECT
 DOMAIN,tools.google.com,DIRECT
 DOMAIN,tools.l.google.com,DIRECT
@@ -456,7 +458,6 @@ DOMAIN,updates-http.cdn-apple.com,DIRECT
 DOMAIN,updates-http.cdn-apple.com.akadns.net,DIRECT
 DOMAIN,updates.cdn-apple.com,DIRECT
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com,DIRECT
-DOMAIN,upos-hz-mirrorakam.akamaized.net,DIRECT
 DOMAIN,upp.itunes.apple.com,DIRECT
 DOMAIN,valid.apple.com,DIRECT
 DOMAIN,valid.origin-apple.com.akadns.net,DIRECT
@@ -9725,13 +9726,7 @@ DOMAIN-SUFFIX,alibaba.net,DIRECT
 DOMAIN-SUFFIX,alibabacapital.com,DIRECT
 DOMAIN-SUFFIX,alibabachengdun.com,DIRECT
 DOMAIN-SUFFIX,alibabachengdun.net,DIRECT
-DOMAIN-SUFFIX,alibabacloud.co.in,DIRECT
 DOMAIN-SUFFIX,alibabacloud.com,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com.au,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com.hk,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com.my,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com.sg,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com.tw,DIRECT
 DOMAIN-SUFFIX,alibabacorp.com,DIRECT
 DOMAIN-SUFFIX,alibabadesign.com,DIRECT
 DOMAIN-SUFFIX,alibabadns.com,DIRECT
@@ -9781,7 +9776,6 @@ DOMAIN-SUFFIX,aligaofang.com,DIRECT
 DOMAIN-SUFFIX,aligfwaf.com,DIRECT
 DOMAIN-SUFFIX,alighting.com,DIRECT
 DOMAIN-SUFFIX,alihd.net,DIRECT
-DOMAIN-SUFFIX,alihealth.hk,DIRECT
 DOMAIN-SUFFIX,alihuahua.com,DIRECT
 DOMAIN-SUFFIX,aliimg.com,DIRECT
 DOMAIN-SUFFIX,alijijinhui.org,DIRECT
@@ -11593,6 +11587,7 @@ DOMAIN-SUFFIX,baidu120.cc,DIRECT
 DOMAIN-SUFFIX,baidu123.com,DIRECT
 DOMAIN-SUFFIX,baidu521.com,DIRECT
 DOMAIN-SUFFIX,baiduads.com,DIRECT
+DOMAIN-SUFFIX,baiduapp.com,DIRECT
 DOMAIN-SUFFIX,baidubaidubaidu.com,DIRECT
 DOMAIN-SUFFIX,baidubaidubaidu.net,DIRECT
 DOMAIN-SUFFIX,baidubce.com,DIRECT
@@ -15440,12 +15435,10 @@ DOMAIN-SUFFIX,ccbft.com,DIRECT
 DOMAIN-SUFFIX,ccbfund.com,DIRECT
 DOMAIN-SUFFIX,ccbfutures.com,DIRECT
 DOMAIN-SUFFIX,ccbike.cc,DIRECT
-DOMAIN-SUFFIX,ccbintl.com.hk,DIRECT
 DOMAIN-SUFFIX,ccbleasing.com,DIRECT
 DOMAIN-SUFFIX,ccbookfair.com,DIRECT
 DOMAIN-SUFFIX,ccbpension.com,DIRECT
 DOMAIN-SUFFIX,ccbride.com,DIRECT
-DOMAIN-SUFFIX,ccbseoul.com,DIRECT
 DOMAIN-SUFFIX,ccbxt.com,DIRECT
 DOMAIN-SUFFIX,cccbs.net,DIRECT
 DOMAIN-SUFFIX,cccc-capital.com,DIRECT
@@ -17549,8 +17542,6 @@ DOMAIN-SUFFIX,chinaums.com,DIRECT
 DOMAIN-SUFFIX,chinaun.net,DIRECT
 DOMAIN-SUFFIX,chinaunicom-a.com,DIRECT
 DOMAIN-SUFFIX,chinaunicom.com,DIRECT
-DOMAIN-SUFFIX,chinaunicom.com.hk,DIRECT
-DOMAIN-SUFFIX,chinaunicomglobal.com,DIRECT
 DOMAIN-SUFFIX,chinaunionpay.com,DIRECT
 DOMAIN-SUFFIX,chinaunionpay.net,DIRECT
 DOMAIN-SUFFIX,chinauniversalasset.com,DIRECT
@@ -18608,7 +18599,6 @@ DOMAIN-SUFFIX,cmbchina.biz,DIRECT
 DOMAIN-SUFFIX,cmbchina.com,DIRECT
 DOMAIN-SUFFIX,cmbchina.net,DIRECT
 DOMAIN-SUFFIX,cmbchinawm.com,DIRECT
-DOMAIN-SUFFIX,cmbi.com.hk,DIRECT
 DOMAIN-SUFFIX,cmbimg.com,DIRECT
 DOMAIN-SUFFIX,cmbuat.com,DIRECT
 DOMAIN-SUFFIX,cmbwinglungbank.com,DIRECT
@@ -20399,11 +20389,7 @@ DOMAIN-SUFFIX,ctdzsk.com,DIRECT
 DOMAIN-SUFFIX,cteaw.com,DIRECT
 DOMAIN-SUFFIX,ctecdcs.com,DIRECT
 DOMAIN-SUFFIX,ctex.org,DIRECT
-DOMAIN-SUFFIX,ctexcel.ca,DIRECT
-DOMAIN-SUFFIX,ctexcel.com,DIRECT
 DOMAIN-SUFFIX,ctexcel.com.hk,DIRECT
-DOMAIN-SUFFIX,ctexcel.fr,DIRECT
-DOMAIN-SUFFIX,ctexcel.us,DIRECT
 DOMAIN-SUFFIX,ctfhub.com,DIRECT
 DOMAIN-SUFFIX,ctfile.com,DIRECT
 DOMAIN-SUFFIX,ctfile.net,DIRECT
@@ -20448,9 +20434,7 @@ DOMAIN-SUFFIX,ctracer.net,DIRECT
 DOMAIN-SUFFIX,ctrip-ttd.hk,DIRECT
 DOMAIN-SUFFIX,ctrip.co.id,DIRECT
 DOMAIN-SUFFIX,ctrip.co.kr,DIRECT
-DOMAIN-SUFFIX,ctrip.co.th,DIRECT
 DOMAIN-SUFFIX,ctrip.com,DIRECT
-DOMAIN-SUFFIX,ctrip.com.hk,DIRECT
 DOMAIN-SUFFIX,ctrip.my,DIRECT
 DOMAIN-SUFFIX,ctrip.sg,DIRECT
 DOMAIN-SUFFIX,ctripbiz.com,DIRECT
@@ -22369,10 +22353,8 @@ DOMAIN-SUFFIX,didapinche.com,DIRECT
 DOMAIN-SUFFIX,didatravel.com,DIRECT
 DOMAIN-SUFFIX,didctf.com,DIRECT
 DOMAIN-SUFFIX,diddgame.com,DIRECT
-DOMAIN-SUFFIX,didi-food.com,DIRECT
 DOMAIN-SUFFIX,didialift.com,DIRECT
 DOMAIN-SUFFIX,didiapp.com,DIRECT
-DOMAIN-SUFFIX,didiaustralia.blog,DIRECT
 DOMAIN-SUFFIX,didibear.com,DIRECT
 DOMAIN-SUFFIX,didichuxing.com,DIRECT
 DOMAIN-SUFFIX,didichuxing.net,DIRECT
@@ -22380,8 +22362,6 @@ DOMAIN-SUFFIX,dididadidi.com,DIRECT
 DOMAIN-SUFFIX,dididapiao.com,DIRECT
 DOMAIN-SUFFIX,dididawo.com,DIRECT
 DOMAIN-SUFFIX,dididi88.com,DIRECT
-DOMAIN-SUFFIX,didiglobal.com,DIRECT
-DOMAIN-SUFFIX,didimobility.co.jp,DIRECT
 DOMAIN-SUFFIX,didipay.com,DIRECT
 DOMAIN-SUFFIX,didiqiche.com,DIRECT
 DOMAIN-SUFFIX,didishijie.com,DIRECT
@@ -23841,8 +23821,10 @@ DOMAIN-SUFFIX,duunion.com,DIRECT
 DOMAIN-SUFFIX,duwenxue.com,DIRECT
 DOMAIN-SUFFIX,duwenz.com,DIRECT
 DOMAIN-SUFFIX,duwenzhang.com,DIRECT
+DOMAIN-SUFFIX,duxiaoman-int.com,DIRECT
 DOMAIN-SUFFIX,duxiaoman.com,DIRECT
 DOMAIN-SUFFIX,duxiaomanfintech.com,DIRECT
+DOMAIN-SUFFIX,duxiaomantech.com,DIRECT
 DOMAIN-SUFFIX,duxiaoshuo.com,DIRECT
 DOMAIN-SUFFIX,duxiu.com,DIRECT
 DOMAIN-SUFFIX,duyandb.com,DIRECT
@@ -23923,10 +23905,15 @@ DOMAIN-SUFFIX,dxiazaicc.com,DIRECT
 DOMAIN-SUFFIX,dxjh.net,DIRECT
 DOMAIN-SUFFIX,dxjs.com,DIRECT
 DOMAIN-SUFFIX,dxlfile.com,DIRECT
+DOMAIN-SUFFIX,dxm-cdn.com,DIRECT
+DOMAIN-SUFFIX,dxm-int.com,DIRECT
 DOMAIN-SUFFIX,dxm-yibai.com,DIRECT
 DOMAIN-SUFFIX,dxmjinr.com,DIRECT
+DOMAIN-SUFFIX,dxmlcf.com,DIRECT
+DOMAIN-SUFFIX,dxmlcfintech.com,DIRECT
 DOMAIN-SUFFIX,dxmpay.com,DIRECT
 DOMAIN-SUFFIX,dxmstatic.com,DIRECT
+DOMAIN-SUFFIX,dxmyqh.com,DIRECT
 DOMAIN-SUFFIX,dxnky.com,DIRECT
 DOMAIN-SUFFIX,dxpmedia.com,DIRECT
 DOMAIN-SUFFIX,dxqyy.com,DIRECT
@@ -25062,7 +25049,6 @@ DOMAIN-SUFFIX,emqx.net,DIRECT
 DOMAIN-SUFFIX,emr-volces.com,DIRECT
 DOMAIN-SUFFIX,ems-audio.com,DIRECT
 DOMAIN-SUFFIX,ems517.com,DIRECT
-DOMAIN-SUFFIX,emsec.hk,DIRECT
 DOMAIN-SUFFIX,emshost.com,DIRECT
 DOMAIN-SUFFIX,emshua.com,DIRECT
 DOMAIN-SUFFIX,emsym.com,DIRECT
@@ -32803,7 +32789,6 @@ DOMAIN-SUFFIX,hhpj.net,DIRECT
 DOMAIN-SUFFIX,hhrcard.com,DIRECT
 DOMAIN-SUFFIX,hhrdc.com,DIRECT
 DOMAIN-SUFFIX,hhtravel.com,DIRECT
-DOMAIN-SUFFIX,hhtravel.com.tw,DIRECT
 DOMAIN-SUFFIX,hhup.com,DIRECT
 DOMAIN-SUFFIX,hhuus.com,DIRECT
 DOMAIN-SUFFIX,hhvv.com,DIRECT
@@ -38323,11 +38308,8 @@ DOMAIN-SUFFIX,jd-ex.net,DIRECT
 DOMAIN-SUFFIX,jd-fm.com,DIRECT
 DOMAIN-SUFFIX,jd-zd.com,DIRECT
 DOMAIN-SUFFIX,jd.co,DIRECT
-DOMAIN-SUFFIX,jd.co.th,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
 DOMAIN-SUFFIX,jd.hk,DIRECT
-DOMAIN-SUFFIX,jd.id,DIRECT
-DOMAIN-SUFFIX,jd.ru,DIRECT
 DOMAIN-SUFFIX,jd.shop,DIRECT
 DOMAIN-SUFFIX,jd100.com,DIRECT
 DOMAIN-SUFFIX,jd120.com,DIRECT
@@ -40588,6 +40570,7 @@ DOMAIN-SUFFIX,juejinchain.com,DIRECT
 DOMAIN-SUFFIX,juejinqifu.com,DIRECT
 DOMAIN-SUFFIX,juemei.com,DIRECT
 DOMAIN-SUFFIX,juemuren4449.com,DIRECT
+DOMAIN-SUFFIX,juequling.com,DIRECT
 DOMAIN-SUFFIX,juesheng.com,DIRECT
 DOMAIN-SUFFIX,juewei.com,DIRECT
 DOMAIN-SUFFIX,juexiang.com,DIRECT
@@ -56437,7 +56420,6 @@ DOMAIN-SUFFIX,rf.hk,DIRECT
 DOMAIN-SUFFIX,rfaexpo.com,DIRECT
 DOMAIN-SUFFIX,rfc2cn.com,DIRECT
 DOMAIN-SUFFIX,rfchina.com,DIRECT
-DOMAIN-SUFFIX,rfchost.com,DIRECT
 DOMAIN-SUFFIX,rfcreader.com,DIRECT
 DOMAIN-SUFFIX,rfdl88.com,DIRECT
 DOMAIN-SUFFIX,rfdy.hk,DIRECT
@@ -65200,7 +65182,6 @@ DOMAIN-SUFFIX,trickypen.com,DIRECT
 DOMAIN-SUFFIX,triggerdelivery.com,DIRECT
 DOMAIN-SUFFIX,trinitigame.com,DIRECT
 DOMAIN-SUFFIX,trioisobardev.com,DIRECT
-DOMAIN-SUFFIX,trip.com,DIRECT
 DOMAIN-SUFFIX,trip8080.com,DIRECT
 DOMAIN-SUFFIX,tripbaba.com,DIRECT
 DOMAIN-SUFFIX,tripbe.com,DIRECT
