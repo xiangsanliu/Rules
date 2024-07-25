@@ -1,3 +1,0 @@
-# Github row
-DOMAIN-SUFFIX,githubusercontent.com,Proxy
-

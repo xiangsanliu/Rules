@@ -22,15 +22,7 @@ jobs:
     - name: Generate
       run: |
         pip install requests
-        python3 ./scripts/build-ad.py
-        python3 ./scripts/build-telegram.py
-        python3 ./scripts/build-direct.py
-        python3 ./scripts/build-proxy.py
-        python3 ./scripts/build-netease.py
         python3 ./scripts/build-node.py
-        python3 ./scripts/merge-h2y.py
-        python3 ./scripts/gen-final.py
-        python3 ./scripts/build-adlite-clash.py
     - name: Commit
       run: |
         git config --global user.email actions@github.com
