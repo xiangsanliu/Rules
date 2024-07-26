@@ -27,9 +27,7 @@ jobs:
       run: |
         git config --global user.email actions@github.com
         git config --global user.name 'GitHub Actions'
-        git add .
-        git commit -m "daily update" -a
-        git push
+        git diff-index --quiet HEAD -- && echo "No changes to commit" || (git add . && git commit -m "daily update" -a && git push)
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
