@@ -4,8 +4,6 @@
 name: Auto Generate
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # scheduled at 06:00 (UTC+8) every monday
   workflow_dispatch:
 
 jobs:
