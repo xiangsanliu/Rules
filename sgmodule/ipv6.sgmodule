@@ -1,0 +1,6 @@
+#!name=启用ipv6
+#!desc=启用ipv6
+
+[General]
+ipv6 = true
+prefer-ipv6 = true
