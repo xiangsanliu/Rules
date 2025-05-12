@@ -1,0 +1,8 @@
+#!name=网易云解锁
+#!desc=网易云解锁
+
+[Proxy Group]
+NetEaseMusic = url-test, url=http://www.gstatic.com/generate_204, interval=600, timeout=5, select=0, policy-regex-filter=(music|NetEaseMusic|网易云)
+
+[Rule]
+RULE-SET,https://ghproxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEaseMusic/NetEaseMusic.list,NETEASEMUSIC

@@ -1,0 +1,36 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Auto Generate
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # scheduled at 06:00 (UTC+8) every monday
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Generate
+      run: |
+        pip install requests
+        python3 clash/convert-clash.py
+    - name: Commit
+      run: |
+        git config --global user.email actions@github.com
+        git config --global user.name 'GitHub Actions'
+        git add .
+        git commit -m "daily update" -a
+        git push
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

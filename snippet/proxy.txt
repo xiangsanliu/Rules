@@ -1,0 +1,2 @@
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binancezh.io

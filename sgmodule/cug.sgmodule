@@ -1,0 +1,5 @@
+#!name=CUG解锁
+#!desc=CUG解锁
+
+[Script]
+cug = type=http-response,script-path=https://raw.githubusercontent.com/xiangsanliu/Rules/main/scripts/cug.js,pattern=^http:\/\/xycrgl\.cug\.edu\.cn\/reserve\.php\/reserve\/(zhaji|myindex),max-size=131072,requires-body=true,timeout=20,script-update-interval=0,enable=true
