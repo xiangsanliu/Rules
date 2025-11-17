@@ -6,6 +6,9 @@ on:
 
   # 允许手动触发，方便测试
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   update_ruleset:
