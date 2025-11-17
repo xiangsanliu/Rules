@@ -1,0 +1,76 @@
+name: Ruleset Auto Update
+
+# 每天 UTC 时间 8:00 执行一次。
+# 转换为北京时间 (UTC+8) 是每天下午 4:00。
+# 如果您希望是北京时间早上 8:00 执行，请将 cron 设置为 '0 0 * * *' (UTC)。
+# 这里为了匹配“每天 八点执行一次”的字面意思，我假定您指的是**北京时间**。
+# **如果您希望是北京时间早上 8:00 执行，请使用下面的 cron 表达式：**
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 00:00 (北京时间 08:00) 执行
+
+  # 允许手动触发，方便测试
+  workflow_dispatch:
+
+jobs:
+  update_ruleset:
+    runs-on: ubuntu-latest
+    
+    # Git 配置，用于后续的 push 操作
+    env:
+      GIT_COMMITTER_NAME: GitHub Actions Bot
+      GIT_COMMITTER_EMAIL: actions@github.com
+
+    steps:
+      # 0. Checkout code
+      - name: 🚀 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # 必须配置 token 以允许后续的 push
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 1. 下载、解压、重命名并赋予执行权限 mihomo
+      - name: 📥 Download and Setup Mihomo
+        run: |
+          # 下载压缩包
+          MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/v1.19.16/mihomo-linux-amd64-compatible-v1.19.16.gz"
+          curl -L $MIHOMO_URL -o mihomo.gz
+          
+          # 解压
+          gunzip mihomo.gz
+
+          # 赋予执行权限
+          chmod +x mihomo
+          
+      # 2. 下载 proxy.txt 文件
+      - name: ⬇️ Download proxy.txt Rules
+        run: |
+          RULES_URL="https://github.com/Loyalsoldier/surge-rules/raw/refs/heads/release/proxy.txt"
+          curl -L $RULES_URL -o proxy.txt
+          
+      # 3. 执行 mihomo convert-ruleset 命令
+      - name: 🛠️ Convert Ruleset
+        run: |
+          ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
+          
+      # 4. Push proxy.mrs
+      - name: 📤 Commit and Push proxy.mrs
+        run: |
+          # 检查文件是否发生变化
+          if git diff --exit-code proxy.mrs; then
+            echo "proxy.mrs has no changes. Skipping commit."
+          else
+            # 配置 Git user
+            git config user.name "${{ env.GIT_COMMITTER_NAME }}"
+            git config user.email "${{ env.GIT_COMMITTER_EMAIL }}"
+            
+            # 添加文件
+            git add proxy.mrs
+            
+            # 提交更改
+            git commit -m "🤖 Auto update: proxy.mrs ruleset"
+            
+            # 推送更改到当前分支
+            git push
+            echo "Successfully committed and pushed proxy.mrs."
+          fi
