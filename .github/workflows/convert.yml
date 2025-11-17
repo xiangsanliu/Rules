@@ -40,19 +40,19 @@ jobs:
       # 2. 下载 proxy.txt 文件
       - name: ⬇️ Download proxy.txt Rules
         run: |
-          RULES_URL="https://github.com/Loyalsoldier/surge-rules/raw/refs/heads/release/proxy.txt"
+          RULES_URL="https://github.com/Loyalsoldier/clash-rules/raw/refs/heads/release/proxy.txt"
           curl -L $RULES_URL -o proxy.txt
           
       # 3. 执行 mihomo convert-ruleset 命令
       - name: 🛠️ Convert Ruleset
         run: |
-          ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
+          ./mihomo convert-ruleset domain yaml proxy.txt mrs/proxy.mrs
           
       # 4. Push proxy.mrs
       - name: 📤 Commit and Push proxy.mrs
         run: |
           # 检查文件是否发生变化
-          if git diff --exit-code proxy.mrs; then
+          if git diff --exit-code mrs/proxy.mrs; then
             echo "proxy.mrs has no changes. Skipping commit."
           else
             # 配置 Git user
@@ -60,12 +60,12 @@ jobs:
             git config user.email "${{ env.GIT_COMMITTER_EMAIL }}"
             
             # 添加文件
-            git add proxy.mrs
+            git add mrs/proxy.mrs
             
             # 提交更改
-            git commit -m "🤖 Auto update: proxy.mrs ruleset"
+            git commit -m "🤖 Auto update"
             
             # 推送更改到当前分支
             git push
-            echo "Successfully committed and pushed proxy.mrs."
+            echo "Successfully committed and pushed."
           fi
