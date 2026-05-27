@@ -40,35 +40,34 @@ jobs:
           # 赋予执行权限
           chmod +x mihomo
           
-      # 2. 下载 proxy.txt 文件
-      - name: ⬇️ Download proxy.txt Rules
+      # 2. 下载 rules 并生成 block_merged.yaml
+      - name: ⬇️ Download and Merge Block Rules
         run: |
           RULES_URL="https://github.com/Loyalsoldier/clash-rules/raw/refs/heads/release/proxy.txt"
           curl -L $RULES_URL -o proxy.txt
+          python3 scripts/build-block.py
           
       # 3. 执行 mihomo convert-ruleset 命令
       - name: 🛠️ Convert Ruleset
         run: |
           ./mihomo convert-ruleset domain yaml proxy.txt mrs/proxy.mrs
+          ./mihomo convert-ruleset domain yaml block_merged.yaml mrs/block.mrs
           
-      # 4. Push proxy.mrs
-      - name: 📤 Commit and Push proxy.mrs
+      # 4. Commit and Push changes
+      - name: 📤 Commit and Push Rulesets
         run: |
-          # 检查文件是否发生变化
-          if git diff --exit-code mrs/proxy.mrs; then
-            echo "proxy.mrs has no changes. Skipping commit."
+          # 配置 Git user
+          git config user.name "${{ env.GIT_COMMITTER_NAME }}"
+          git config user.email "${{ env.GIT_COMMITTER_EMAIL }}"
+          
+          # 添加生成的文件
+          git add mrs/proxy.mrs mrs/block.mrs
+          
+          # 检查是否有改动需要提交
+          if git diff --cached --quiet; then
+            echo "No changes in rulesets. Skipping commit."
           else
-            # 配置 Git user
-            git config user.name "${{ env.GIT_COMMITTER_NAME }}"
-            git config user.email "${{ env.GIT_COMMITTER_EMAIL }}"
-            
-            # 添加文件
-            git add mrs/proxy.mrs
-            
-            # 提交更改
-            git commit -m "🤖 Auto update"
-            
-            # 推送更改到当前分支
+            git commit -m "🤖 Auto update rulesets"
             git push
             echo "Successfully committed and pushed."
           fi
